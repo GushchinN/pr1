@@ -12,7 +12,7 @@ public class cd3 {
         double lengd = arr.length;
         double avg = sumd / lengd;
 
-        System.out.println("Сумма элементов: " + sum);
-        System.out.println("Среднее арифметическое: " + avg);
+        System.out.println("Сумма элементов массива: " + sum);
+        System.out.println("Среднее арифметическое чисел массива: " + avg);
     }
 }
