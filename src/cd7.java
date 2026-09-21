@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class cd7 {
-    static int integral(int n){
+    static int factorial(int n){
         int x = 1;
         for(int i = 1; i < n+1; i++){
             x=x*i;
@@ -13,7 +13,7 @@ public class cd7 {
          System.out.print("Введите число: ");
          int vvod = sc.nextInt();
 
-         int m = integral(vvod);
+         int m = factorial(vvod);
          System.out.println("Интеграл данного числа: " + m);
     }
 }
