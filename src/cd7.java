@@ -13,7 +13,10 @@ public class cd7 {
          System.out.print("Введите число: ");
          int vvod = sc.nextInt();
 
-         int m = factorial(vvod);
-         System.out.println("Интеграл данного числа: " + m);
+         if(vvod>=0){
+            int m = factorial(vvod);
+            System.out.println("Интеграл данного числа: " + m);
+         }
+         else{System.out.println("Интеграл от неположительного числа не существует");}
     }
 }
