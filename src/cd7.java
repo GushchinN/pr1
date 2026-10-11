@@ -15,8 +15,8 @@ public class cd7 {
 
          if(vvod>=0){
             int m = factorial(vvod);
-            System.out.println("Интеграл данного числа: " + m);
+            System.out.println("Факториал данного числа: " + m);
          }
-         else{System.out.println("Интеграл от неположительного числа не существует");}
+         else{System.out.println("Факториал отрицательного числа не существует");}
     }
 }

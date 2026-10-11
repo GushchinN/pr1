@@ -16,10 +16,10 @@ public class cd4 {
             cnt = 0;
 
             int sum = 0;
-            while (cnt != n){
+            do {
                 sum+=arr[cnt];
                 cnt++;
-            }
+            } while (cnt != n);
             cnt=0;
 
             int min = arr[0];
